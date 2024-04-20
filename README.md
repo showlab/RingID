@@ -6,7 +6,7 @@
 
 National University of Singapore
 
-[Project Page](https://sites.google.com/view/ringid2?usp=sharing) | [Preprint](https://drive.google.com/file/d/1HJOKRzPsGAnFzLOR-WTaf2d7C0s9eTaG/view)
+[Project Page](https://sites.google.com/view/ringid2?usp=sharing) | [Preprint](https://drive.google.com/file/d/1fwr3Q4JjO_naQHgr57RJLGuSuv03xH3b/view?usp=sharing)
 
 </div>
 
