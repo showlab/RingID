@@ -28,6 +28,17 @@ RingID identifies the limitations in Tree-Ring's design and suggests a series of
 ## Qualitative 
 <img src="assets/qualitative.png" width="1000">
 
+## Citation
+
+```bibtex
+@article{ci2024ringid,
+  title={RingID: Rethinking Tree-Ring Watermarking for Enhanced Multi-Key Identification},
+  author={Ci, Hai and Yang, Pei and Song, Yiren and Shou, Mike Zheng},
+  journal={arXiv preprint arXiv:2404.14055},
+  year={2024}
+}
+```
+
 ## Reference
 [1] Wen, Yuxin, et al. "Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust." arXiv preprint arXiv:2305.20030 (2023).
 
