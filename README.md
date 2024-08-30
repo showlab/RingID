@@ -15,18 +15,31 @@ National University of Singapore
 **RingID** presents a robust diffusion image watermarking approach to imprint multiple keys. It bases on the training-free approach Tree-Ring<sub>[1]</sub>, but significantly enhances in both watermark verification and multi-key identification. 
 
 
-## Motivation
-<img src="assets/motivation.png" width="1000">
-Tree-Ring demonstrates extraordinary robustness in watermark verification (detection). We are interested its power to distinguish between different keys.  We comprehensively evaluate Tree-Ring in identification and find that it doesn't have enough distinguishability to identify different keys. What's more, it is sensitive to various image transformations, and totally unable to cope with Rotation and Crop/Scale.  Further research shows that an overlooked operation "discarding the imaginary part" introduced in injection process empowers Tree-Ring extraordinary robustness, especially to rotation and cropping/scaling. However, it does not help identify different keys. This motivates us to rethink the limitations in Tree-Ring and devise stronger solutions.
-
-
 ## Method
 <img src="assets/pipeline_v2.png" width="1000">
 RingID identifies the limitations in Tree-Ring's design and suggests a series of approaches for enhanced distinguishability and robustness.
 
 
-## Qualitative 
-<img src="assets/qualitative.png" width="1000">
+## Dependencies
+- PyTorch == 1.13.0
+- transformers == 4.23.1
+- diffusers == 0.11.1
+- datasets
+
+Note: higher diffusers version may not be compatible with the DDIM inversion code.
+
+## Usage
+
+### Verification
+```python
+python verify.py --run_name verification --online
+```
+
+### Identification
+```python
+python identify.py --run_name identification --online
+```
+
 
 ## Citation
 
@@ -39,8 +52,8 @@ RingID identifies the limitations in Tree-Ring's design and suggests a series of
 }
 ```
 
-## Reference
-[1] Wen, Yuxin, et al. "Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust." arXiv preprint arXiv:2305.20030 (2023).
+## Acknowledgement
 
-## Updates
-- Code will be released soon.
+[1] [Tree-ring watermarks: Fingerprints for diffusion images that are invisible and robust](https://github.com/YuxinWenRick/tree-ring-watermark)
+
+
